@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>My Family</title>
+<style>
+
+body {
+margin: 0;
+padding: 0;
+background-color: #50623A;
+}
+
+header {
+background: #294B29;
+height: 60px;
+padding: 0 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo {
+color: #fff;
+text-transform: capitalize;
+font-size: 35px;
+font-family: serif;
+font-style: oblique;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+}
+
+nav ul li {
+position: relative;
+}
+
+nav ul li a, nav ul li span {
+text-decoration: none;
+color: white;
+font-family: serif;
+font-style: oblique;
+font-size: 20px;
+margin: 0 10px;
+line-height: 60px;
+text-transform: capitalize;
+}
+
+nav ul li:hover ul {
+display: block;
+}
+
+nav ul ul {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 180px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+nav ul ul li {
+display: block;
+}
+
+nav ul ul li a {
+color: black;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+nav ul ul li a:hover {
+background-color: #DBE7C9;
+}
+
+h1 {
+text-decoration: none;
+color: #fff;
+font-family: serif;
+line-height: 60px;
+text-align: center;
+text-transform: capitalize;
+}
+
+.parents {
+display: flex;
+justify-content: center;
+}
+
+.parents img {
+border: 3px solid white;
+width: 100%;
+height: auto;
+}
+
+.grandma {
+display: flex;
+justify-content: center;
+}
+
+.grandma img {
+border: 3px solid white;
+width: 50%;
+height: auto;
+}
+
+.pets{
+display: flex;
+}
+
+.pets img{
+border: 3px solid white;
+width: 100%;
+height: auto;
+}
+
+figure {
+text-align: center;
+margin: 0 3%; /* Adjust the margin for spacing between figures */
+}
+
+figcaption {
+font-size: 16px;
+color: #fff;
+font-family: serif;
+margin-top: 10px;
+}
+
+.content{
+padding:5%;
+}
+
+.content p{
+font-size: 18px;
+line-height:1.7;
+color: #fff;
+font-family: serif;
+font-style: oblique;
+margin-bottom:20px;
+text-align: center;
+}
+
+hr.dotted {
+border: none;
+border-top: 3px dotted white;
+margin: 20px 0;
+}
+
+.home-footer {
+background: none;
+padding: 15px 50px;
+text-align: center;
+font-size: 18px;
+color: #fff;
+font-family: serif;
+text-transform: capitalize;
+}
+
+footer {
+background: #000;
+color: #fff;
+padding: 15px 50px;
+text-align: center;
+font-size: 18px;
+font-family: serif;
+text-transform: capitalize;
+}
+
+footer a {
+color: #fff;
+text-decoration: none;
+}
+
+</style>
+</head>
+
+<body>
+<header>
+    <div class="logo">my portfolio ౨ৎ</div>
+    <nav>
+        <ul>
+            <li>
+                <span>about</span>
+                <ul>
+                    <li><a href="profile.html">my profile</a></li>
+                    <li><a href="academics.html">my academics</a></li>
+                </ul>
+            </li>
+            <li><a href="family.html">family</a></li>
+            <li><a href="friends.html">friends</a></li>
+            <li>
+                <span>more</span>
+                <ul>
+                    <li><a href="hobbies.html">My hobbies</a></li>
+                    <li><a href="interests.html">My interests</a></li>
+                </ul>
+            </li>
+            <li><a href="quotes.html">quotes</a></li>
+        </ul>
+    </nav>
+</header>
+
+<h1>⋆˚ my family  𝜗𝜚˚⋆</h1>
+
+<hr class="dotted">
+
+<div class="parents">
+<figure>
+<img src="Images/family1.jpg">
+<figcaption>My mother and father</figcaption>
+</figure>
+</div>
+
+<div class="content">
+<p>
+These are my parents. My mother and my father! I have no siblings. It has always been the three of us in the family.
+</p>
+</div>
+
+<div class="grandma">
+<figure>
+<img src="Images/family2.jpg">
+<figcaption>My grandmother</figcaption>
+</figure>
+</div>
+
+<div class="content">
+<p>
+This my lovely grandmother. She lives in Gelang Patah, Johor. I love and miss her so much. I also miss her cookings, especially her homemade Nasi Lemak for breakfast!!
+</p>
+</div>
+
+<h1>my pets!!</h1>
+
+<div class="pets">
+
+<figure>
+  <img src="Images/pet1.jpg">
+  <figcaption>Baby and Jamil!!</figcaption>
+</figure>
+
+<figure>
+  <img src="Images/pet2.jpg">
+  <figcaption>Ciku</figcaption>
+</figure>
+
+<figure>
+  <img src="Images/pet3.jpg">
+  <figcaption>Awang</figcaption>
+</figure>
+</div>
+
+<div class="content">
+<p>
+These are my cats!! Baby is the mother of Ciku and Jamil!! Awang is a cat we recently took into the family, he is a very silly cat. I love all of them so dearly.
+</p>
+</div>
+
+<footer class="home-footer">
+<p>
+<a href="index.html">home</a>
+</p>
+</footer>
+
+<footer>
+<p>© Nur Aleeya Shafieya</p>
+</footer>
+
+</body>

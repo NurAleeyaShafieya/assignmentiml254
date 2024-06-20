@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Friends</title>
+<style>
+
+body {
+margin: 0;
+padding: 0;
+background-color: #50623A;
+}
+
+header {
+background: #294B29;
+height: 60px;
+padding: 0 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo {
+color: #fff;
+text-transform: capitalize;
+font-size: 35px;
+font-family: serif;
+font-style: oblique;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+}
+
+nav ul li {
+position: relative;
+}
+
+nav ul li a, nav ul li span {
+text-decoration: none;
+color: white;
+font-family: serif;
+font-style: oblique;
+font-size: 20px;
+margin: 0 10px;
+line-height: 60px;
+text-transform: capitalize;
+}
+
+nav ul li:hover ul {
+display: block;
+}
+
+nav ul ul {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 180px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+nav ul ul li {
+display: block;
+}
+
+nav ul ul li a {
+color: black;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+nav ul ul li a:hover {
+background-color: #DBE7C9;
+}
+
+h1 {
+text-decoration: none;
+color: #fff;
+font-family: serif;
+line-height: 60px;
+text-align: center;
+text-transform: capitalize;
+}
+
+.content {
+padding: 5%;
+margin-bottom: 25px;
+text-align: center;
+        }
+
+        .rmt {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px; /* Add margin between .rmt and .fnds */
+        }
+
+        .rmt img {
+            border: 3px solid white;
+            width: 30%;
+            height: auto;
+            margin: 0 15px; /* Adjust margin for spacing */
+        }
+
+        .fnds {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px; /* Add margin between .rmt and .fnds */
+        }
+
+        .fnds img {
+            border: 3px solid white;
+            width: 25%;
+            height: auto;
+            margin: 0 15px; /* Adjust margin for spacing */
+        }
+
+        .csns {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .csns img,
+        .csns video {
+            border: 3px solid white;
+            width: 30%;
+            height: auto;
+            margin: 2%;
+        }
+
+        hr.dotted {
+            border: none;
+            border-top: 3px dotted white;
+            margin: 20px 0;
+        }
+
+        .home-footer {
+            background: none;
+            padding: 15px 50px;
+            text-align: center;
+            font-size: 18px;
+            color: #fff;
+            font-family: serif;
+            text-transform: capitalize;
+        }
+
+        footer {
+            background: #000;
+            color: #fff;
+            padding: 15px 50px;
+            text-align: center;
+            font-size: 18px;
+            font-family: serif;
+            text-transform: capitalize;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">my portfolio ౨ৎ</div>
+        <nav>
+            <ul>
+                <li>
+                    <span>about</span>
+                    <ul>
+                        <li><a href="profile.html">my profile</a></li>
+                        <li><a href="academics.html">my academics</a></li>
+                    </ul>
+                </li>
+                <li><a href="family.html">family</a></li>
+                <li><a href="friends.html">friends</a></li>
+                <li>
+                    <span>more</span>
+                    <ul>
+                        <li><a href="hobbies.html">My hobbies</a></li>
+                        <li><a href="interests.html">My interests</a></li>
+                    </ul>
+                </li>
+                <li><a href="quotes.html">quotes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<h1>✰ friends ✰</h1>
+
+<hr class="dotted">
+
+<div class="content">
+<audio controls>
+<source src="Audios/steeeamins.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+<div class="rmt">
+<img src="Images/friend2.jpg" alt="Friend 2">
+</div>
+
+<div class="fnds">
+<img src="Images/friend1.jpg">
+<img src="Images/friend4.jpg">
+</div>
+
+<div class="csns">
+<video controls>
+<source src="video2.mp4" type="video/mp4">
+</video>
+<img src="Images/friend3.jpg">
+</div>
+
+<div class="rmt">
+<img src="Images/friend5.jpg" alt="Friend 2">
+</div>
+
+<footer class="home-footer">
+<p>
+<a href="index.html">home</a>
+</p>
+</footer>
+
+<footer>
+<p>© Nur Aleeya Shafieya</p>
+</footer>
+
+</body>
+
+</html>
